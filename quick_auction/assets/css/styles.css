@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    background-image: url('21.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Caveat', cursive;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#errorMessage {
+    margin-top: 10px;
+    color: #ff5252;
+}
+
+.registration-form {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: none;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #2196f3;
+    border-color: #2196f3;
+    color: #fff; 
+}
+
+.btn-primary:hover {
+    background-color: #1565c0;
+    border-color: #1565c0;
+    color: #fff; 
+}
+
+.navbar-nav {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+
+.toggle-password .button-text {
+    transition: color 0.3s ease-in-out; 
+}
+
+.password-hidden .button-text {
+    color: #fff; 
+    opacity: 0;
+}
+
+
+.jumbotron-transparent {
+    background-color: transparent; 
+    border: none; 
+    color: #000; 
+}
+
+.jumbotron-transparent hr {
+    border-top-color: #000; 
+}
+
+.jumbotron-transparent {
+    background-color: transparent; 
+    border: none; 
+    color: #fff; 
+}
+
+.jumbotron-transparent hr {
+    border-top-color: #fff; 
+}
